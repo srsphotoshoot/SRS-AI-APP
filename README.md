@@ -1,8 +1,33 @@
-# SRS-AI-APP
-A AI app that dedicated to Shree Radha Studio 
-# app.py :- on hold.
-## app.py requests 500 tokens per requests also takes 4 api requests per time. 
-# streamlitapp.py :- published (on streamlit) 
-## under development 
-## takes 40-80 TPM and only 2-4 ARM .
-### dev :- @itsmesonu7462
+SRS-AI-APP
+
+An AI application dedicated to Shree Radha Studio.
+
+📌 Overview
+
+This repository contains two main application files:
+
+📁 app.py
+
+Status: On Hold
+
+Requires 500 tokens per request
+
+Consumes 4 API requests per execution
+
+Currently paused due to high token and API usage costs
+
+📁 streamlitapp.py
+
+Status: Published on Streamlit (Under Development)
+
+Lightweight and optimized
+
+Uses only 40–80 TPM (Tokens Per Minute)
+
+Requires 2–4 ARM (API Request Minutes)
+
+Suitable for live deployment and testing
+
+👨‍💻 Developer
+
+@itsmesonu7462
