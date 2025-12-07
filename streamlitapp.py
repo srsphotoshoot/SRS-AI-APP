@@ -2,9 +2,13 @@ import streamlit as st
 from PIL import Image
 import google.generativeai as genai
 import base64
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
-GEMINI_API_KEY = "AIzaSyBaZcanfnDiiqcPR03y3pon6PwYyPzKaiw"
+GEMINI_API_KEY= os.getenv("GOOGLE_API_KEY")
+
 genai.configure(api_key=GEMINI_API_KEY)
 
 VISION_MODEL = "models/gemini-1.0-basic"          
