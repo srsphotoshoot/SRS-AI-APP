@@ -14,7 +14,7 @@ GEMINI_API_KEY= os.getenv("GOOGLE_API_KEY")
 
 genai.configure(api_key=GEMINI_API_KEY)
 
-MODEL = "gemini-2.0-flash-exp"
+MODEL = "gemini-2.0-flash-exp"  
 
 
 # ---------------------------
