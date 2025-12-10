@@ -21,7 +21,6 @@ genai.configure(api_key=GEMINI_API_KEY)
 MODEL_NAME = "gemini-3-pro-image-preview"
 model = genai.GenerativeModel(MODEL_NAME)
 
-# ----------------- Pre-defined Prompt -----------------
 VIRTUAL_TRYON_PROMPT = """Generate a photorealistic image of a professional fashion model wearing this EXACT lehenga outfit.
 Preserve every detail of the original lehenga design exactly as it appears—pattern, color, embroidery, waist shape, style, and skirt flow.
 Maintain proper body alignment, realistic fitting, and correct cloth tension around the waist, chest, cleavage area, and lower abdominal region.
@@ -214,13 +213,13 @@ COLOR PRESERVATION (CRITICAL):
 
 The output must look like a professional fashion catalog photo with the model wearing THIS EXACT lehenga design and the image should be in 2k quality."""
 
-# ----------------- UI Setup -----------------
+
 st.set_page_config(page_title="Virtual Lehenga Try-On", page_icon="👗", layout="wide")
 
 st.title("👗 Virtual Lehenga Try-On")
 st.markdown("Upload your lehenga image and generate a professional model try-on image")
 
-# Create two columns for layout
+
 col1, col2 = st.columns([1, 1])
 
 with col1:
