@@ -23,7 +23,7 @@ MODEL_NAME = "gemini-3-pro-image-preview"
 model = genai.GenerativeModel(MODEL_NAME)
 
 VIRTUAL_TRYON_PROMPT = """Generate a photorealistic image of a professional fashion model wearing this EXACT lehenga outfit.
-Preserve every detail of the original lehenga design exactly as it appears—pattern, color, embroidery, waist shape, style, and skirt flow.
+Preserve every detail of the original lehenga design exactly as it appears pattern, color, embroidery, waist shape, style, and skirt flow.
 Maintain proper body alignment, realistic fitting, and correct cloth tension around the waist, chest, cleavage area, and lower abdominal region.
 Make sure the blouse and lehenga sit naturally and continuously without gaps or separation at the belly area.
 Ensure the chest and cleavage area appear natural and match the reference garment’s coverage level.
