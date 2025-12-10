@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 __pycache__/
 *.pyc
@@ -28,3 +29,32 @@ Thumbs.db
 test.py
 .png
 .jpeg
+=======
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+
+venv/
+ENV/
+env/
+
+.env
+*.env
+
+.streamlit/
+
+*.log
+
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+.cache/
+>>>>>>> 9217dbfecd1481fe15cfd16e477af5221a77a594
